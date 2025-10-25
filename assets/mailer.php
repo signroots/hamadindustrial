@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $recipient = "demo@gmail.com";
+    $recipient = "sales@hamadindustrial.com";
 
     $subject = "New contact from $name";
 
