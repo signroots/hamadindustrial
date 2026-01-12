@@ -27031,3 +27031,8 @@ a.ui-button:active {
         margin: auto;
     }
 }
+
+.rs-section-subtitle.has-stroke {
+    display: inline-block; /* so margin works properly */
+    margin-top: 30px;      /* space before the title */
+}
