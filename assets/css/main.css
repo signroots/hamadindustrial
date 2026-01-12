@@ -27036,3 +27036,7 @@ a.ui-button:active {
     display: inline-block; /* so margin works properly */
     margin-top: 30px;      /* space before the title */
 }
+.rs-section-subtitle.has-theme-orange {
+    display: inline-block; /* ensures margin works properly */
+    margin-top: 30px;      /* adjust spacing above the title */
+}
