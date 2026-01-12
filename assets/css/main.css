@@ -26982,9 +26982,3 @@ a.ui-button:active {
     left: 0;
     color: #fbb216; /* theme accent */
 }
-@media only screen and (max-width: 767px) {
-    .section-space {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-}
