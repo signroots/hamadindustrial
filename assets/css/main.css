@@ -26963,3 +26963,22 @@ a.ui-button:active {
     content: none !important;
 }
 
+.rs-services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rs-services-list li {
+    font-size: 14px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 14px;
+}
+
+.rs-services-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #fbb216; /* theme accent */
+}
