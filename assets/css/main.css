@@ -7027,8 +7027,9 @@ html.lenis body {
   inset-inline-end: 0;
   inset-inline-start: 0;
   width: 100%;
-  -webkit-animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
-  animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-animation: 1s ease-in-out 0s normal none 1 running fadeInDown;
+animation: 1s ease-in-out 0s normal none 1 running fadeInDown;
+
   background: var(--rs-white);
   border-top: 0;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
