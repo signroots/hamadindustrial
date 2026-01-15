@@ -5071,7 +5071,7 @@ code {
   }
 }
 .rs-brand-three .rs-brand-item {
-  background: var(--rs-white);
+  background:none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27039,4 +27039,55 @@ a.ui-button:active {
 .rs-section-subtitle.has-theme-orange {
     display: inline-block; /* ensures margin works properly */
     margin-top: 30px;      /* adjust spacing above the title */
+}
+
+/* Remove extra space by default */
+.rs-services-tab-content-wrapper {
+    margin-bottom: 0;
+}
+
+/* Add space ONLY for Exotic Alloy tab */
+#pills-item-two .rs-services-tab-content-wrapper {
+    margin-bottom: 60px;
+}
+
+/* Ensure images stretch correctly */
+.object-fit-cover {
+    object-fit: cover;
+}
+.rs-category-area {
+    position: relative;
+    padding: 100px 0;
+}
+
+.rs-category-bg-thumb {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.08;
+    z-index: -1;
+}
+
+.rs-category-item {
+    background: #fff;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.rs-category-item:hover {
+    transform: translateY(-6px);
+}
+
+.rs-category-icon {
+    color: var(--theme-orange, #f57c00);
+    margin-bottom: 15px;
+}
+
+.rs-category-title {
+    font-size: 18px;
+    font-weight: 600;
 }
